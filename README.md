@@ -18,8 +18,6 @@ To run the application, execute the compiled binary:
 ./logAssignment
 ```
 
-Make sure to replace `<binary_name>` with the actual name of the compiled binary.
-
 ## API Endpoints
 
 ### Health Check
