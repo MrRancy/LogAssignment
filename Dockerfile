@@ -32,4 +32,4 @@ WORKDIR /home/appuser/app
 EXPOSE 4500
 
 # Entrypoint
-CMD ["./benzingaAssignment"]
+CMD ["./logAssignment"]

@@ -52,6 +52,5 @@ func (m *MyMem) TransportLogs() bool {
 		return false
 	}
 	defer resp.Body.Close()
-
-	return status == http.StatusOK
+	return status >= http.StatusOK && status <= http.StatusNoContent
 }

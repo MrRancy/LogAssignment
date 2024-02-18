@@ -27,7 +27,7 @@ func main() {
 	// Environment Variables
 	batchSize := utils.GetEnvAsInt("BATCH_SIZE", 5)
 	batchInterval := utils.GetEnvAsInt("BATCH_INTERVAL", 1)
-	postEndpoint := utils.GetEnv("POST_ENDPOINT", "http://localhost:8080/log")
+	postEndpoint := utils.GetEnv("POST_ENDPOINT", "https://httpdump.app/dumps/8e06d9f6-ac86-4629-a13b-f2d802a24fbe")
 
 	// Creating In Memory store
 	cache := store.NewCache(log, postEndpoint, batchInterval, batchSize, 3, 2)
